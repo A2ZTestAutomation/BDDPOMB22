@@ -45,6 +45,7 @@ public class OpencartStepDef extends TestBase{
 	public void user_search_item(io.cucumber.datatable.DataTable dataTable) {
 		List<List<String>> items = dataTable.asLists();
 		String strItem = items.get(0).get(0);
+		System.out.println(strItem);
 		acctPage.searchItem(strItem);
 	}
 	
