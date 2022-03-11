@@ -46,6 +46,7 @@ public class OpencartStepDef extends TestBase{
 		List<List<String>> items = dataTable.asLists();
 		String strItem = items.get(0).get(0);
 		System.out.println(strItem);
+		System.out.println("Updated for CR1");
 		acctPage.searchItem(strItem);
 	}
 	
